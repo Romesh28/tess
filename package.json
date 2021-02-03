@@ -5,11 +5,18 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "mock": "json-server -w db.json -p 4200 -d 1500"
   },
   "dependencies": {
     "next": "10.0.6",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
-  }
+    "react-dom": "17.0.1",
+    "sass": "^1.32.6"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
